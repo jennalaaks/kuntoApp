@@ -6,7 +6,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        You have to start somewhere
+        Jee
         <Button label="Nice button"></Button>
         <Input 
           type="text"

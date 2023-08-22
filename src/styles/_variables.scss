@@ -1,8 +1,18 @@
 :root {
-    --color-primary: pink;
-    --color-primary-variant: blue;
-    --color-secondart: tan;
-    --color-secondary-variant: yellow;
+    --color-pearl: #FFF5E1;
+    --color-beige: #FFDBC3;
+    --color-peach: #E59B8F;
+    --color-earth: #7D6468;
+    --color-sky: #B2C9FC;
+    --color-white: #FFF;
+    --color-black: #1E1E1E;
+
+    --text-primary: var(--color-black);
+    --text-secondary: var(--color-earth);
+    --text-brand: var(--color-peach);
+    --text-invert: var(--color-pearl);
+
+    --surface-primary: var(--color-pearl);
 
     font-size: 62.5%; /* (62.5/100) * 16px = 10px */
     --font-size-small: 1.7rem; /* 17px */
@@ -11,6 +21,8 @@
 
     --font-weight-bold: 700;
     --font-weight-regular: 400;
+
+    --border-radius: 5px;
 
     --wrap: 1200px;
 
