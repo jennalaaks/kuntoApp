@@ -5,14 +5,9 @@ import Input from './components/Input'
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        Jee
-        <Button label="Nice button"></Button>
-        <Input 
-          type="text"
-          placeholder="Text here"
-        />
-      </header>
+      <header className="App-header"></header>
+        <Button label="Kirjaudu sisään"></Button>
+        <Button label="Luo käyttäjätunnus" class="secondary"></Button>
     </div>
   );
 }
